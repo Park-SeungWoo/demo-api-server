@@ -96,3 +96,19 @@ Traceback (most recent call last):
     raise MissingFieldError(field_names=[snake_to_camel(field) for field in fields.keys()])
 main_app_name.exceptions.request_exceptions.MissingFieldError: "Required arguments named ['ping'] are not provided."
 
+[2025-08-05 13:42:39,203] main_app_name.responses.error_response - ERROR - Traceback (most recent call last):
+  File "C:\Users\tmd24\projs\demo_api_server\proj_name\main_app_name\dtos\abstract_dto.py", line 29, in deserialize
+    setattr(deserialized_obj, field, cls.__deserialize_field(field_type, data[snake_to_camel(field)]))
+                                                                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'ping'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tmd24\projs\demo_api_server\proj_name\main_app_name\core\decorators\deserialize_decorator.py", line 39, in pass_deserialized_obj
+    deserialized_obj: Dto = _type.deserialize(data)
+                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\tmd24\projs\demo_api_server\proj_name\main_app_name\dtos\abstract_dto.py", line 31, in deserialize
+    raise MissingFieldError(field_names=[snake_to_camel(field) for field in fields.keys()])
+main_app_name.exceptions.request_exceptions.MissingFieldError: "Required arguments named ['ping'] are not provided."
+

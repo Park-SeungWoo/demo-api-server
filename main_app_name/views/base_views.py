@@ -41,7 +41,7 @@ def pingpong(request, ping: SampleRequestDto) -> HttpResponse:
 @api_view(['GET'])
 def spec(request) -> HttpResponse:
     try:
-        return FileResponse.response('./spec.yaml', 'application/yaml', 200)
+        return FileResponse.response('./specs/youtube.yaml', 'application/yaml', 200)
     except MissingFieldError as e:
         return ErrorResponse.response(e, 400)
     except FileNotFoundError as e:

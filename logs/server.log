@@ -120,3 +120,85 @@
 [2025-08-05 12:57:51,130] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
 [2025-08-05 12:58:42,262] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "POST /"
 [2025-08-05 12:58:42,268] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "POST /" 400
+[2025-08-05 13:20:44,281] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:20:44,282] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:20:44,291] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:20:44,291] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:21:51,824] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /"
+[2025-08-05 13:21:51,825] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /" 200
+[2025-08-05 13:22:12,580] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "POST /"
+[2025-08-05 13:22:12,581] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "POST /" 201
+[2025-08-05 13:38:51,195] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:38:51,196] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:38:51,201] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:38:51,202] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:39:51,297] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:39:51,298] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:39:51,305] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:39:51,305] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:39:55,801] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:39:55,805] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:39:55,827] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:39:55,830] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:40:03,380] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:40:03,381] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:40:03,388] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:40:03,389] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:42:10,323] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:42:10,324] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:42:10,330] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:42:10,330] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:42:28,614] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:42:28,615] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:42:28,621] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:42:28,623] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:42:36,287] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /"
+[2025-08-05 13:42:36,288] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /" 200
+[2025-08-05 13:42:39,200] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "POST /"
+[2025-08-05 13:42:39,203] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "POST /" 400
+[2025-08-05 13:43:26,197] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:43:26,198] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:43:26,205] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:43:26,205] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:44:08,848] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:44:08,849] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:44:08,856] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:44:08,858] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:45:58,024] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:45:58,025] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:45:58,031] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:45:58,031] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:47:18,120] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:47:18,121] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:47:18,128] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:47:18,130] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:54:22,203] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:54:22,207] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:54:22,216] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:54:22,218] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:58:39,495] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:58:39,496] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 13:58:39,501] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 13:58:39,501] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:22:37,448] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 14:22:37,450] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:22:37,464] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 14:22:37,466] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:23:03,801] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 14:23:03,802] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:23:03,808] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 14:23:03,809] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:23:08,695] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 14:23:08,696] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:23:08,700] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 14:23:08,701] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:23:12,576] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 14:23:12,577] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:23:12,582] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 14:23:12,582] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:23:51,179] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 14:23:51,180] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:23:51,189] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /spec"
+[2025-08-05 14:23:51,190] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /spec" 200
+[2025-08-05 14:27:27,341] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "POST /comments"
+[2025-08-05 14:27:27,380] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "POST /comments" 404
