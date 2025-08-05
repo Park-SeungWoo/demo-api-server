@@ -9,9 +9,10 @@ from ..exceptions.request_exceptions import MissingFieldError
 from ..exceptions.type_exceptions import NotDtoClassError
 from ..responses.dto_response import DtoResponse
 from ..responses.error_response import ErrorResponse
+from ..responses.file_response import FileResponse
 
 
-# /hello GET
+# / GET
 def pong(request) -> HttpResponse:
     try:
         response = SampleResponseDto('Hello, Django!')
@@ -23,7 +24,7 @@ def pong(request) -> HttpResponse:
     except Exception as e:
         return ErrorResponse.response(e, 500)
 
-
+# / POST
 @deserialize
 def pingpong(request, ping: SampleRequestDto) -> HttpResponse:
     try:
@@ -36,6 +37,19 @@ def pingpong(request, ping: SampleRequestDto) -> HttpResponse:
     except Exception as e:
         return ErrorResponse.response(e, 500)
 
+# /spec GET
+@api_view(['GET'])
+def spec(request) -> HttpResponse:
+    try:
+        return FileResponse.response('./spec.yaml', 'application/yaml', 200)
+    except MissingFieldError as e:
+        return ErrorResponse.response(e, 400)
+    except FileNotFoundError as e:
+        return ErrorResponse.response(e, 404)
+    except NotDtoClassError as e:
+        return ErrorResponse.response(e, 500)
+    except Exception as e:
+        return ErrorResponse.response(e, 500)
 
 @api_view(['GET', 'POST'])
 @multi_methods(GET=pong, POST=pingpong)

@@ -12,11 +12,7 @@ paths:
       description: any req without any parameters can get pong as a result
       responses:
         '200':
-          description: response string data with a key of pong
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Response'
+          $ref: '#/components/responses/UniversalResponse'
     post:
       summary: this is a sample post req (pingpong)
       description: any req with string data with a key of ping can get pong string as a result
@@ -24,7 +20,7 @@ paths:
         $ref: '#/components/requestBodies/SampleBody'
       responses:
         '201':
-          $ref: '#/components/responses/Universal'
+          $ref: '#/components/responses/UniversalResponse'
 components:
   schemas:
     Response:
@@ -36,6 +32,8 @@ components:
           example: "Hello, Starbucks!"
     Request:
       type: object
+      required:  # field required
+        - ping
       properties:
         ping:
           type: string
@@ -43,12 +41,13 @@ components:
           example: "Starbucks"
   requestBodies:
     SampleBody:
+#      required: true  # body required
       content:
         application/json:
           schema:
             $ref: '#/components/schemas/Request'
   responses:
-    Universal:
+    UniversalResponse:
       description: response string data with a key of pong
       content:
         application/json:
