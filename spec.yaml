@@ -1,0 +1,56 @@
+openapi: 3.1.0
+info:
+  title: Sample-API
+  description: Sample API server to test MCP
+  version: 1.0.0
+servers:
+  - url: 'http://localhost:8000'
+paths:
+  /:
+    get:
+      summary: this is a sample get req (pong)
+      description: any req without any parameters can get pong as a result
+      responses:
+        '200':
+          description: response string data with a key of pong
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+    post:
+      summary: this is a sample post req (pingpong)
+      description: any req with string data with a key of ping can get pong string as a result
+      requestBody:
+        $ref: '#/components/requestBodies/SampleBody'
+      responses:
+        '201':
+          $ref: '#/components/responses/Universal'
+components:
+  schemas:
+    Response:
+      type: object
+      properties:
+        pong:
+          type: string
+          description: string data manipulated from req string or just a sample string data
+          example: "Hello, Starbucks!"
+    Request:
+      type: object
+      properties:
+        ping:
+          type: string
+          description: sample req data
+          example: "Starbucks"
+  requestBodies:
+    SampleBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Request'
+  responses:
+    Universal:
+      description: response string data with a key of pong
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Response'

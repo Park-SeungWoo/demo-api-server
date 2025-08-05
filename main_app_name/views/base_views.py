@@ -15,7 +15,7 @@ from ..responses.error_response import ErrorResponse
 def pong(request) -> HttpResponse:
     try:
         response = SampleResponseDto('Hello, Django!')
-        return DtoResponse.response(response)
+        return DtoResponse.response(response, 200)
     except MissingFieldError as e:
         return ErrorResponse.response(e, 400)
     except NotDtoClassError as e:
@@ -28,7 +28,7 @@ def pong(request) -> HttpResponse:
 def pingpong(request, ping: SampleRequestDto) -> HttpResponse:
     try:
         response = SampleResponseDto(f'Hello, {ping.ping}')
-        return DtoResponse.response(response)
+        return DtoResponse.response(response, 201)
     except MissingFieldError as e:
         return ErrorResponse.response(e, 400)
     except NotDtoClassError as e:
