@@ -1,0 +1,4 @@
+[2025-08-05 09:43:07,125] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "GET /"
+[2025-08-05 09:43:07,126] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "GET /" 200
+[2025-08-05 09:43:35,823] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Request "POST /"
+[2025-08-05 09:43:35,824] main_app_name.middlewares.ip_logging_middleware - INFO - 127.0.0.1 - Response "POST /" 200

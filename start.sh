@@ -4,7 +4,10 @@
 #python proj_name/manage.py makemigrations main_app_name
 
 # migrate db
-python manage.py migrate
+#python manage.py migrate
 
 # run server
-python manage.py runserver 0.0.0.0:8000 --noreload
+#python manage.py runserver 0.0.0.0:8000 --noreload
+
+# run server - demo
+uv run python manage.py runserver --noreload
