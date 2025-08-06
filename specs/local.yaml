@@ -4,18 +4,20 @@ info:
   description: Sample API server to test MCP
   version: 1.0.0
 servers:
-  - url: 'http://localhost:8000'
+  - url: http://localhost:8000
 paths:
-  /:
+  /ping:
     get:
       summary: this is a sample get req (pong)
       description: any req without any parameters can get pong as a result
+      operationId: getPong
       responses:
         '200':
           $ref: '#/components/responses/UniversalResponse'
     post:
       summary: this is a sample post req (pingpong)
       description: any req with string data with a key of ping can get pong string as a result
+      operationId: postPing
       requestBody:
         $ref: '#/components/requestBodies/SampleBody'
       responses:
@@ -29,19 +31,18 @@ components:
         pong:
           type: string
           description: string data manipulated from req string or just a sample string data
-          example: "Hello, Starbucks!"
+          example: Hello, Starbucks!
     Request:
       type: object
-      required:  # field required
+      required:
         - ping
       properties:
         ping:
           type: string
           description: sample req data
-          example: "Starbucks"
+          example: Starbucks
   requestBodies:
     SampleBody:
-#      required: true  # body required
       content:
         application/json:
           schema:
