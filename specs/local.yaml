@@ -6,7 +6,7 @@ info:
 servers:
   - url: http://localhost:8000
 paths:
-  /ping:
+  /:
     get:
       summary: this is a sample get req (pong)
       description: any req without any parameters can get pong as a result
